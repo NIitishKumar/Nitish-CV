@@ -12,10 +12,47 @@ import EmailIcon from "@mui/icons-material/Email";
 import Box from "@mui/material/Box";
 import Rating from "@mui/material/Rating";
 import Link from "@mui/material/Link";
+import { borderBottom } from "@mui/system";
 
 function App() {
   return (
     <>
+      <Grid className="mainDiv" justifyContent={"center"} container>
+        <Grid
+          align="center"
+          item
+          xs={12}
+          style={{
+            position: "absolute",
+            top: "40%",
+            left: "43%",
+            color: "#e3e3de",
+          }}
+        >
+          <Typography
+            class="nameTag"
+            align="center"
+            variant="h3"
+            fontWeight={800}
+            letterSpacing={1.5}
+            style={{
+              "border-bottom": "0.1px solid rgba(255,255,255,0.35)",
+              // padding: "10px 50px",
+              margin: "10px",
+            }}
+          >
+            <span style={{ color: "white" }}>Nitish Kumar</span>
+          </Typography>
+          <Typography
+            style={{ "font-size": "28px", color: "#FFFFFF", fontWeight: "200" }}
+          >
+            Interactive resume
+          </Typography>
+        </Grid>
+        <Grid item xs={6} m={0}>
+          {/* <Divider /> */}
+        </Grid>
+      </Grid>
       <Grid justifyContent="center" container mt={5} spacing={2}>
         <Grid item xs={12}>
           <Typography align="center" variant="h3">
@@ -71,7 +108,7 @@ function App() {
             <LinkedInIcon lg />
             <a
               href="https://www.linkedin.com/in/nitishkumar746/"
-              style={{ textDecoration: "none" , color:  '#727878'}}
+              style={{ textDecoration: "none", color: "#727878" }}
             >
               https://www.linkedin.com/in/nitishkumar746/
             </a>
@@ -397,16 +434,16 @@ function App() {
             </Typography>
           </Grid>
 
-          <Grid item xs={6} my={5}>
-            <Divider />
+          <Grid item xs={6} my={5} m={0} p={0}>
+            <Divider p={0} />
           </Grid>
 
-          <Grid container pt={10} pb={3} justifyContent="center">
+          <Grid container pt={10} pb={0} justifyContent="center" m={0}>
             <Grid item xs={6}>
               {/* <Typography variant="h5">Skills</Typography> */}
             </Grid>
           </Grid>
-          <Grid container pb={10} xs={6} justifyContent="center">
+          <Grid container pb={0} xs={6} justifyContent="center">
             <Grid item xs={1} mb={3} ml={-2}>
               <Typography variant="p">
                 <LinkedInIcon

@@ -53,3 +53,16 @@ h3{
 h5{
   color: #22A39F;
 }
+
+.mainDiv{
+  background-image: url('../public/669457.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nameTag{
+  border-bottom: '1px solid #FFFFFF';
+  border-bottom-color: rgba(255,255,255,0.35);
+  font-size: 63px;
+}
