@@ -419,7 +419,7 @@ function App() {
           <Grid align="center" item xs={12}>
             <Typography variant="h3" color="white">
               Contact
-            </Typography>
+            </Typography> 
           </Grid>
           <Grid align="center" item xs={12}>
             <Typography color="#727878" variant="p" fontSize={"25px"}>
