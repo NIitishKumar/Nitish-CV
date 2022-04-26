@@ -427,7 +427,7 @@ function App() {
               faster horses. ”
             </Typography>
           </Grid>
-
+ 
           <Grid align="center" item xs={12}>
             <Typography color="#727878" variant="p" fontSize={"25px"}>
               - Henry Ford
