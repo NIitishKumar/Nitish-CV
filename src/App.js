@@ -22,12 +22,7 @@ function App() {
           align="center"
           item
           xs={12}
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "39%",
-            color: "#e3e3de",
-          }}
+          class="topName"
         >
           <Typography
             class="nameTag"

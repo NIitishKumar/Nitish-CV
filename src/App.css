@@ -37,32 +37,48 @@
   }
 }
 
-p{
-  font-family:sans-serif;
-  color: #727878
+p {
+  font-family: sans-serif;
+  color: #727878;
 }
 
-h4{
-  color:#22A39F
+h4 {
+  color: #22a39f;
 }
 
-h3{
-  color:#22A39F
+h3 {
+  color: #22a39f;
 }
 
-h5{
-  color: #22A39F;
+h5 {
+  color: #22a39f;
 }
 
-.mainDiv{
-  background-image: url('../public/669457.png');
+.mainDiv {
+  background-image: url("../public/669457.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.nameTag{
-  border-bottom: '1px solid #FFFFFF';
-  border-bottom-color: rgba(255,255,255,0.35);
+.nameTag {
+  border-bottom: "1px solid #FFFFFF";
+  border-bottom-color: rgba(255, 255, 255, 0.35);
   font-size: 63px;
+}
+
+.topName {
+  position: absolute;
+  top: 40%;
+  left: 39%;
+  color: "#e3e3de";
+}
+
+@media (min-width: 350px) {
+  .topName {
+    position: absolute;
+    top: 55%;
+    left: 38%;
+    color: "#e3e3de";
+  }
 }
