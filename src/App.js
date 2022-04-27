@@ -431,7 +431,7 @@ function App() {
           <Grid align="center" item xs={12}>
             <Typography color="#727878" variant="p" fontSize={"25px"}>
               - Henry Ford
-            </Typography>
+            </Typography> 
           </Grid>
 
           <Grid item xs={6} my={5} m={0} p={0}>
