@@ -417,7 +417,7 @@ function App() {
           pt={10}
         >
           <Grid align="center" item xs={12}>
-            <Typography variant="h3" color="white">
+            <Typography variant="h3" color="white"> 
               Contact
             </Typography> 
           </Grid> 
