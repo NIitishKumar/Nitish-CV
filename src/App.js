@@ -420,7 +420,7 @@ function App() {
             <Typography variant="h3" color="white">
               Contact
             </Typography> 
-          </Grid>
+          </Grid> 
           <Grid align="center" item xs={12}>
             <Typography color="#727878" variant="p" fontSize={"25px"}>
               “If I had asked people what they wanted, they would have said
