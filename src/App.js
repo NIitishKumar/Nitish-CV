@@ -68,7 +68,7 @@ function App() {
           </Grid>
         </Grid>
         <Grid justifyContent="center" container xs={6}>
-          <Grid item xs={4}>
+          <Grid item lg={4} sm={12}>
             <Typography my={2} variant="h4">
               About me
             </Typography>
@@ -80,14 +80,14 @@ function App() {
               myself.
             </Typography>
           </Grid>
-          <Grid item xs={4} px={4}>
+          <Grid item ls={4} px={4} py={3} dm={12} >
             <Avatar
               alt="Remy Sharp"
               src="https://media-exp1.licdn.com/dms/image/D4D03AQEF5xe3hnAOtw/profile-displayphoto-shrink_200_200/0/1647396185376?e=1656547200&v=beta&t=0GCL6PG9plr6_7iAR4lXWZ8kENz8DUy4LlKjQ238XUc"
               sx={{ minWidth: 50, minHeight: 50, height: 200, width: 200 }}
             />
           </Grid>
-          <Grid item xs={4} pl={3}>
+          <Grid item lg={4} sm={12}>
             <Typography my={2} align="" variant="h4">
               Details
             </Typography>
@@ -106,12 +106,12 @@ function App() {
               Sikandrabad, Bulandshahr Uttar Pradesh
             </Typography>
             <LinkedInIcon lg />
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/nitishkumar746/"
               style={{ textDecoration: "none", color: "#727878" }}
             >
               https://www.linkedin.com/in/nitishkumar746/
-            </a>
+            </a> */}
           </Grid>
         </Grid>
       </Grid>
@@ -138,13 +138,13 @@ function App() {
           </Grid>
         </Grid>
         <Grid container pb={10} xs={6} justifyContent="center">
-          <Grid item xs={6}>
+          <Grid item lg={6} sm={12} py={2} >
             <Typography variant="h6">
               Dr. A.P.J. Abdul Kalam Technical University
             </Typography>
             <Typography>July 2017- May 2021</Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item lg={6} sm={12} py={2}>
             <Typography fontWeight={600}>
               Bachelor of Technology in Computer Science
             </Typography>
@@ -156,20 +156,20 @@ function App() {
               Ghaziabad U.P
             </Typography>
           </Grid>
-          <Grid item mt={4} xs={6}>
+          <Grid item mt={4} lg={6} sm={12} >
             <Typography variant="h6">Cources</Typography>
           </Grid>
-          <Grid mt={4} item xs={6}>
+          <Grid mt={4} item lg={6} sm={12} >
             <Typography>
               Completed Full Stack Web Development course with NodeJS
             </Typography>
           </Grid>
-          <Grid mt={4} item xs={6}></Grid>
-          <Grid mt={4} item xs={6}>
+          <Grid mt={4} item lg={6} sm={12}></Grid>
+          <Grid mt={4} item lg={6} sm={12} >
             <Typography>Completed JavaScript course from Udemy</Typography>
           </Grid>
-          <Grid mt={4} item xs={6}></Grid>
-          <Grid mt={4} item xs={6}>
+          <Grid mt={4} item lg={6} sm={12} ></Grid>
+          <Grid mt={4} item lg={6} sm={12} >
             <Typography>Completed Python course from Udemy</Typography>
           </Grid>
         </Grid>
@@ -183,11 +183,11 @@ function App() {
           </Grid>
         </Grid>
         <Grid container pb={10} xs={6} justifyContent="center">
-          <Grid item xs={6}>
+          <Grid item lg={6} sm={12} py={2}>
             <Typography variant="h6">Junior FullStack Developer</Typography>
             <Typography>May 2021 - Jan 2022</Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item lg={6} sm={12} py={2}>
             <Typography fontWeight={600}>Cliffex Software Solution</Typography>
             <Typography>FullTime Employee</Typography>
             <Typography pt={2}>
@@ -204,11 +204,11 @@ function App() {
         </Grid>
         <Grid item xs={12}></Grid>
         <Grid container pb={10} xs={6} justifyContent="center">
-          <Grid item xs={6}>
+          <Grid item  lg={6} sm={12} py={2}>
             <Typography variant="h6">MERN Stack Developer</Typography>
             <Typography>Feb 2022 - Present</Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item lg={6} sm={12} py={2}>
             <Typography fontWeight={600}>Applore Technologies</Typography>
             <Typography>FullTime Employee</Typography>
             <Typography pt={2}>
@@ -228,7 +228,7 @@ function App() {
       {/* ------------------------->Abilities */}
 
       <Grid container justifyContent="center" spacing={2} mt={15}>
-        <Grid align="center" item xs={12}>
+        <Grid align="center" item lg={12}>
           <Typography variant="h3">Abilities</Typography>
         </Grid>
         <Grid align="center" item xs={12}>
@@ -253,10 +253,12 @@ function App() {
           </Grid>
         </Grid>
         <Grid container pb={10} xs={6} justifyContent="center">
-          <Grid item xs={3} mb={3}>
+
+
+          <Grid item lg={3} sm={6} xs={6} mb={3}>
             <Typography variant="p">HTML</Typography>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item  lg={3} sm={6} xs={6} >
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -265,11 +267,11 @@ function App() {
               <Rating value={5} name="simple-controlled" />
             </Box>
           </Grid>
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3} sm={6} xs={6} mb={3}>
             <Typography variant="p">CSS</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3}sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -279,11 +281,11 @@ function App() {
             </Box>
           </Grid>
 
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3}sm={6} xs={6}mb={3}>
             <Typography variant="p">JavaScript</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -293,11 +295,11 @@ function App() {
             </Box>
           </Grid>
 
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3}sm={6} xs={6}mb={3}>
             <Typography variant="p">Bootstrap</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -307,11 +309,11 @@ function App() {
             </Box>
           </Grid>
 
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3}sm={6} xs={6}mb={3}>
             <Typography variant="p">ReactJS</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -321,11 +323,11 @@ function App() {
             </Box>
           </Grid>
 
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3}sm={6} xs={6}mb={3}>
             <Typography variant="p">Node.js</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -335,11 +337,11 @@ function App() {
             </Box>
           </Grid>
 
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3}sm={6} xs={6}mb={3}>
             <Typography variant="p">ExpressJS</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -349,11 +351,11 @@ function App() {
             </Box>
           </Grid>
 
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3}sm={6} xs={6}mb={3}>
             <Typography variant="p">MongoDB</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -377,11 +379,11 @@ function App() {
           </Grid>
         </Grid>
         <Grid container pb={10} xs={6} justifyContent="center">
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3} sm={6} xs={6} mb={3}>
             <Typography variant="p">Hindi</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -391,11 +393,11 @@ function App() {
             </Box>
           </Grid>
 
-          <Grid item xs={3} mb={3}>
+          <Grid item lg={3} sm={6} xs={6} mb={3}>
             <Typography variant="p">English</Typography>
           </Grid>
 
-          <Grid item xs={3}>
+          <Grid item lg={3} sm={6} xs={6}>
             <Box
               sx={{
                 "& > legend": { mt: 2 },
@@ -414,7 +416,8 @@ function App() {
           justifyContent="center"
           spacing={2}
           mt={15}
-          pt={10}
+          py={10}
+          px={5}
         >
           <Grid align="center" item xs={12}>
             <Typography variant="h3" color="white"> 
@@ -438,13 +441,12 @@ function App() {
             <Divider p={0} />
           </Grid>
 
-          <Grid container pt={10} pb={0} justifyContent="center" m={0}>
-            <Grid item xs={6}>
-              {/* <Typography variant="h5">Skills</Typography> */}
+          <Grid container pt={10} pb={0} justifyContent="right">
+            <Grid item lg={6} sm={12} xs={12} >
             </Grid>
           </Grid>
           <Grid container pb={0} xs={6} justifyContent="center">
-            <Grid item xs={1} mb={3} ml={-2}>
+            <Grid align='right' item lg={1} sm={4} xs={4} mb={3}>
               <Typography variant="p">
                 <LinkedInIcon
                   color="action"
@@ -453,41 +455,48 @@ function App() {
                 />
               </Typography>
             </Grid>
-            <Grid item xs={5} pt={1} ml={-4}>
+
+
+            <Grid align='center' item lg={3} sm={8} xs={8} pt={1} >
               <Link
+              align="right"
                 href="https://www.linkedin.com/in/nitishkumar746/"
                 color={"#727878"}
                 underline="none"
               >
-                https://www.linkedin.com/in/nitishkumar746/
+                LinkedIn Profile
               </Link>
             </Grid>
-            <Grid item xs={1} mb={3}>
+
+
+            <Grid align='right' item lg={1} sm={4} xs={4} mb={3}>
               <Typography variant="p">
                 <GitHubIcon fontSize="large" style={{ color: "#FFFFFF" }} />
               </Typography>
             </Grid>
-            <Grid item xs={5} pt={1} ml={-4}>
+
+            <Grid align='center' item lg={3} sm={8} xs={8}  pt={1}>
               <Link
                 href="https://github.com/NIitishKumar"
                 color={"#727878"}
                 underline="none"
               >
-                https://github.com/NIitishKumar
+                GitHub Profile
               </Link>
             </Grid>
-            <Grid item xs={1} mb={3} pl={3}>
+
+            <Grid align='right' item lg={1} sm={4} xs={4} mb={3} >
               <Typography variant="p">
                 <EmailIcon fontSize="large" style={{ color: "#FFFFFF" }} />{" "}
               </Typography>
             </Grid>
-            <Grid item xs={5} pt={1}>
+            <Grid align='center' item  lg={3} sm={8} xs={8}  pt={1}>
               <Link
                 href="Nitishkumar.ng746@gmail.com"
                 color={"#727878"}
                 underline="none"
               >
-                Nitishkumar.ng746@gmail.com
+                Gmail
               </Link>
             </Grid>
             <Grid item xs={6} mb={3}>
