@@ -24,8 +24,8 @@ function App() {
           xs={12}
           style={{
             position: "absolute",
-            top: "45%",
-            left: "43%",
+            top: "50%",
+            left: "39%",
             color: "#e3e3de",
           }}
         >
