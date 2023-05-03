@@ -78,7 +78,7 @@ function App() {
           <Grid item ls={4} px={4} py={3} dm={12} >
             <Avatar
               alt="Remy Sharp"
-              src="https://media-exp1.licdn.com/dms/image/D4D03AQEF5xe3hnAOtw/profile-displayphoto-shrink_200_200/0/1647396185376?e=1656547200&v=beta&t=0GCL6PG9plr6_7iAR4lXWZ8kENz8DUy4LlKjQ238XUc"
+              src={"profile.jpg"}
               sx={{ minWidth: 50, minHeight: 50, height: 200, width: 200 }}
             />
           </Grid>
